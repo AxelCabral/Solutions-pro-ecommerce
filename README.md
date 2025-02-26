@@ -1,2 +1,2 @@
-# site-vendas-model
- Modelo de site de vendas com gateway de pagamento.
+# Página de vendas Solutions PRO
+Site de vendas com gateway de pagamento.
