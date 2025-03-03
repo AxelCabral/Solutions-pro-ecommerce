@@ -8,6 +8,7 @@
     <meta name="author" content="Digital Pro Solutions" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="plugins/swiper-bundle.min.css">
     <link rel="icon" sizes="64x64" href="assets/logo.webp" type="image/png">
   </head>
   <body>
@@ -18,7 +19,7 @@
         </div>
         <div class="container">
             <span class="badge">PACOTE COMPLETO DE RECURSOS PARA VENDAS NO DIGITAL</span>
-            <h1>Ganhe até 10 mil por mês no digital<br>com nosso conteúdo</h1>
+            <h1>Ganhe até 10 mil por mês no digital com nosso conteúdo</h1>
             <p class="hero-description">Templates profissionais de sites WordPress, Elementor PRO, Canva, Pack de PLR's . Tudo que você precisa para <b>ficar rico no meio digital!</b></p>
             <a href="#pricing"><button class="btn btn-primary">Quero adquirir</button></a>
         </div>
@@ -77,16 +78,44 @@
       </div>
     </section>
     <section class="pages-section">
-        <div class="container">
+        <div class="container-cards">
             <div class="section-header">
                 <h2>Veja alguns dos sites criados com nossos templates</h2>
                 <p>Começe hoje mesmo a ganhar dinheiro utilizando nosso conteúdo digital</p>
             </div>
-            <div class="features-grid-pages">
-                <img src="assets/page1.webp" alt="página de exemplo">
-                <img src="assets/page2.webp" alt="página de exemplo">
-                <img src="assets/page3.webp" alt="página de exemplo">
-                <img src="assets/page4.webp" alt="página de exemplo">
+            <div class="slide-container swiper">
+              <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                  <div class="card swiper-slide">
+                    <img src="assets/page1.webp" alt="página de exemplo">
+                  </div>
+                  <div class="card swiper-slide">
+                    <img src="assets/page2.webp" alt="página de exemplo">
+                  </div>
+                  <div class="card swiper-slide">
+                    <img src="assets/page3.webp" alt="página de exemplo">
+                  </div>
+                  <div class="card swiper-slide">
+                    <img src="assets/page4.webp" alt="página de exemplo">
+                  </div>
+                  <div class="card swiper-slide">
+                    <img src="assets/page5.webp" alt="página de exemplo">
+                  </div>
+                  <div class="card swiper-slide">
+                    <img src="assets/page6.webp" alt="página de exemplo">
+                  </div>
+                  <div class="card swiper-slide">
+                    <img src="assets/page7.webp" alt="página de exemplo">
+                  </div>
+                  <div class="card swiper-slide">
+                    <img src="assets/page8.webp" alt="página de exemplo">
+                  </div>
+                </div>
+              </div>
+              <div class="specification-wrap">
+                <img src="assets/swipe-hand.svg" width="50px" alt="Ícone para deslizar a tela">
+                <p style="font-size: 20px; margin-top: 5px;">Arraste para o lado</p>
+              </div>
             </div>
         </div>
     </section>
@@ -143,6 +172,39 @@
         </div>
       </div>
     </section>
+    <section class="feedbacks-section">
+      <div class="container-cards">
+          <div class="section-header">
+              <h2>Veja como estão indo nossos clientes!</h2>
+              <p>Estamos sempre recebendo feedbacks do nosso produto.</p>
+          </div>
+          <div class="slide-container swiper">
+            <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                  <img src="assets/depoimento1.webp" alt="página de exemplo">
+                </div>
+                <div class="card swiper-slide">
+                  <img src="assets/depoimento2.webp" alt="página de exemplo">
+                </div>
+                <div class="card swiper-slide">
+                  <img src="assets/depoimento3.webp" alt="página de exemplo">
+                </div>
+                <div class="card swiper-slide">
+                  <img src="assets/depoimento4.webp" alt="página de exemplo">
+                </div>
+                <div class="card swiper-slide">
+                  <img src="assets/depoimento5.webp" alt="página de exemplo">
+                </div>
+              </div>
+            </div>
+            <div class="specification-wrap">
+              <img src="assets/swipe-hand.svg" width="50px" alt="Ícone para deslizar a tela">
+              <p style="font-size: 20px; margin-top: 5px;">Arraste para o lado</p>
+            </div>
+          </div>
+      </div>
+  </section>
 
     <!-- CTA Section -->
     <section class="cta">
@@ -152,9 +214,7 @@
         <button class="btn btn-primary">Comece Hoje <span class="arrow">→</span></button>
       </div>
     </section>
-
-    <!-- Add Lovable script tag before the main application script -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script src="script.js"></script>
   </body>
+  <script src="plugins/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
 </html>
